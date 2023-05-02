@@ -29,7 +29,7 @@ def app():
   naivebayes.fit(X_transformed, y_train)
 
 
-  st.header('Machine Prediction Demo')
+  st.header('Prediction Model')
   input=st.text_area("Please enter the text", value="")
   if st.button("Predict"):
     if input.strip()=="":
